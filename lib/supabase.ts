@@ -6,12 +6,13 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || ''
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
 
 // Validate environment variables
+// Validate environment variables
 if (!supabaseUrl) {
-  console.error('Missing NEXT_PUBLIC_SUPABASE_URL environment variable')
+  console.error('https://oafqtcxrlfbkxujzbugg.supabase.co')
 }
 
 if (!supabaseAnonKey) {
-  console.error('Missing NEXT_PUBLIC_SUPABASE_ANON_KEY environment variable')
+  console.error('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9hZnF0Y3hybGZia3h1anpidWdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ4MDQ3NTAsImV4cCI6MjA3MDM4MDc1MH0.cCpYbY3veltGL2R43gFAMFtj5hyN7icNv3oAAMFwW5A')
 }
 
 // Create Supabase client with error handling
